@@ -23,6 +23,9 @@ class Form{
             this.greetings= createElement('h1')
             this.greetings.html("hello : " + name)
             this.greetings.position(200,200)
+            
+            playerCount++
+            player.updateCount(playerCount)
         })
 
     }
