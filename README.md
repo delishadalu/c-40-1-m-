@@ -1,2 +1,2 @@
-# c-40-1-m-
-student and teacher
+# synchronousBallMovement
+Ball moving synchronously
