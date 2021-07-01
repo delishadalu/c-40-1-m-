@@ -17,7 +17,15 @@ function setup(){
 function draw(){
   background("white");
   
-   
+   if(playerCount === 4){
+     gameState=1;
+     game.update(1);
+   }
+  
+  if(gameState === 1){
+    clear();
+    game.play()
+  }
   
 }
 
