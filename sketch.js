@@ -3,6 +3,7 @@ var gameState=0;
 var playerCount;
 
 var form, game, player
+var allPlayers
 function setup(){
   database = firebase.database();
   console.log(database);
