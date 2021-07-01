@@ -18,5 +18,7 @@ class Game{
 
         form= new Form()
         form.display()
+        
+        player.getCount()
     }
 }
