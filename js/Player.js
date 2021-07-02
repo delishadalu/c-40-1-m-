@@ -12,16 +12,5 @@ class Player{
         })
     }
     
-    update(){
-        database.ref('players/player'.this.index).set({
-            name:this.index
-        })
-    }
-        
-        getPlayerInfo(){
-            database.ref('players').on("value",(data)=>{
-                allPlayers= data.val();
-            })
-        }
-            
+  
 }
